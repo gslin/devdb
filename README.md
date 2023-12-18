@@ -1,6 +1,6 @@
 # devdb
 
-A simple CRUD interface with memcached.
+A simple CRUD HTTP interface (API) with memcached.
 
 ## Installation
 
