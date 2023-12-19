@@ -15,7 +15,7 @@ call_user_func(function () {
         $dbkey = 'devdb';
 
         $uri = $_SERVER['REQUEST_URI'];
-        list($id) = sscanf($uri, '/%s');
+        list($id) = sscanf($uri, '/db/%s');
 
         if (null === $id) {
             if ('GET' === $method) {

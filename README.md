@@ -15,10 +15,10 @@ Put `index.php` into the virtual host document root.
 
 CRUD operations with curl:
 
-    curl https://devdb.example.com/
-    curl -X POST -H 'Content-Type: application/json' --data '{"a":"b"}' https://devdb.example.com/
-    curl -X DELETE https://devdb.example.com/1234567890123456789
-    curl -X PUT -H 'Content-Type: application/json' --data '{"a":"b"}' https://devdb.example.com/1234567890123456789
+    curl https://devdb.example.com/db
+    curl -X POST -H 'Content-Type: application/json' --data '{"a":"b"}' https://devdb.example.com/db
+    curl -X DELETE https://devdb.example.com/db/1234567890123456789
+    curl -X PUT -H 'Content-Type: application/json' --data '{"a":"b"}' https://devdb.example.com/db/1234567890123456789
 
 ## License
 
